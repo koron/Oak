@@ -9,7 +9,7 @@ package com.oath.oak.NativeAllocator;
 import com.oath.oak.OakOutOfMemoryException;
 import com.oath.oak.Slice;
 import com.oath.oak.ThreadIndexCalculator;
-import sun.misc.Cleaner;
+import jdk.internal.ref.Cleaner;
 
 import java.lang.reflect.Field;
 import java.nio.ByteBuffer;
